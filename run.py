@@ -28,7 +28,12 @@ print(VERSION)
 
 #list of url dictionary with links, (name:url)
 
-url = {'Linux_386':'https://s3.dualstack.us-east-1.amazonaws.com/gitlab-runner-downloads/{VERSION}/binaries/gitlab-runner-linux-386','Linux_AMD64':'https://s3.dualstack.us-east-1.amazonaws.com/gitlab-runner-downloads/{VERSION}/binaries/gitlab-runner-linux-amd64','Windows_386':'https://s3.dualstack.us-east-1.amazonaws.com/gitlab-runner-downloads/{VERSION}/binaries/gitlab-runner-windows-386.exe','Windows_AMD64':'https://s3.dualstack.us-east-1.amazonaws.com/gitlab-runner-downloads/{VERSION}binaries/gitlab-runner-windows-amd64.exe','Debian_386':'https://s3.dualstack.us-east-1.amazonaws.com/gitlab-runner-downloads/{VERSION}/deb/gitlab-runner_i386.deb','Debian_AMD64':'https://s3.dualstack.us-east-1.amazonaws.com/gitlab-runner-downloads/{VERSION}/deb/gitlab-runner_amd64.deb'}
+url = {'Linux_386':'https://s3.dualstack.us-east-1.amazonaws.com/gitlab-runner-downloads/{VERSION}/binaries/gitlab-runner-linux-386',
+       'Linux_AMD64':'https://s3.dualstack.us-east-1.amazonaws.com/gitlab-runner-downloads/{VERSION}/binaries/gitlab-runner-linux-amd64',
+       'Windows_386':'https://s3.dualstack.us-east-1.amazonaws.com/gitlab-runner-downloads/{VERSION}/binaries/gitlab-runner-windows-386.exe',
+       'Windows_AMD64':'https://s3.dualstack.us-east-1.amazonaws.com/gitlab-runner-downloads/{VERSION}binaries/gitlab-runner-windows-amd64.exe',
+       'Debian_386':'https://s3.dualstack.us-east-1.amazonaws.com/gitlab-runner-downloads/{VERSION}/deb/gitlab-runner_i386.deb',
+       'Debian_AMD64':'https://s3.dualstack.us-east-1.amazonaws.com/gitlab-runner-downloads/{VERSION}/deb/gitlab-runner_amd64.deb'}
 
 #for k,v in url.items():
 #	print(k,v)
@@ -70,7 +75,12 @@ print(VERSION)
 #PUTTING IT ALL TOGETHER BELOW. 
 
 #list of url dictionary with links, (name:url)
-url = {'Linux_386':'https://s3.dualstack.us-east-1.amazonaws.com/gitlab-runner-downloads/'+VERSION+'/binaries/gitlab-runner-linux-386','Linux_AMD64':'https://s3.dualstack.us-east-1.amazonaws.com/gitlab-runner-downloads/'+VERSION+'/binaries/gitlab-runner-linux-amd64','Windows_386':'https://s3.dualstack.us-east-1.amazonaws.com/gitlab-runner-downloads/'+VERSION+'/binaries/gitlab-runner-windows-386.exe','Windows_AMD64':'https://s3.dualstack.us-east-1.amazonaws.com/gitlab-runner-downloads/'+VERSION+'/binaries/gitlab-runner-windows-amd64.exe','Debian_386':'https://s3.dualstack.us-east-1.amazonaws.com/gitlab-runner-downloads/'+VERSION+'/deb/gitlab-runner_i386.deb','Debian_AMD64':'https://s3.dualstack.us-east-1.amazonaws.com/gitlab-runner-downloads/{VERSION}/deb/gitlab-runner_amd64.deb'}
+url = {'Linux_386':'https://s3.dualstack.us-east-1.amazonaws.com/gitlab-runner-downloads/'+VERSION+'/binaries/gitlab-runner-linux-386',
+       'Linux_AMD64':'https://s3.dualstack.us-east-1.amazonaws.com/gitlab-runner-downloads/'+VERSION+'/binaries/gitlab-runner-linux-amd64',
+       'Windows_386':'https://s3.dualstack.us-east-1.amazonaws.com/gitlab-runner-downloads/'+VERSION+'/binaries/gitlab-runner-windows-386.exe',
+       'Windows_AMD64':'https://s3.dualstack.us-east-1.amazonaws.com/gitlab-runner-downloads/'+VERSION+'/binaries/gitlab-runner-windows-amd64.exe',
+       'Debian_386':'https://s3.dualstack.us-east-1.amazonaws.com/gitlab-runner-downloads/'+VERSION+'/deb/gitlab-runner_i386.deb',
+       'Debian_AMD64':'https://s3.dualstack.us-east-1.amazonaws.com/gitlab-runner-downloads/'+VERSION+'/deb/gitlab-runner_amd64.deb'}
 
 
 #loop is breaking it. 
