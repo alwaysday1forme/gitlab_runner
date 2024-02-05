@@ -57,14 +57,14 @@ print(VERSION)
 #url = f"https://s3.dualstack.us-east-1.amazonaws.com/gitlab-runner-downloads/{VERSION}/binaries/gitlab-runner-linux-386"
 
 #parsing last part of url for file name
-parsed_url = urlparse(url)
-filename = parsed_url.path.split("/")[-1]
-print(filename)
+#parsed_url = urlparse(url)
+#filename = parsed_url.path.split("/")[-1]
+#print(filename)
 
 #pulling url from interwebs and saving file
-r = requests.get(url)
-with open(filename, 'wb') as f:
-   f.write(r.content)
+#r = requests.get(url)
+#with open(filename, 'wb') as f:
+#   f.write(r.content)
 
     
 #PUTTING IT ALL TOGETHER BELOW. 
